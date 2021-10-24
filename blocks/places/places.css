@@ -1,0 +1,10 @@
+.places {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    margin-top: 64px;
+  }
+}
