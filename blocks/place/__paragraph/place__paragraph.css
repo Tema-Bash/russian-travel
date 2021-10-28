@@ -1,5 +1,4 @@
 .place__paragraph {
-  list-style-type: none;
   margin-bottom: 26px;
   font-size: 18px;
   font-style: normal;
@@ -17,14 +16,14 @@
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-  font-size: 16px;
-  line-height: 26px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-  margin-left: 16px;
-  margin-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

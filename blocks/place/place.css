@@ -18,14 +18,14 @@
   .place {
     column-gap: 32px;
     grid-template-columns: 440px 1fr;
-    margin: 0 auto 73px;
+    margin: 0 48px 80px;
     min-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
-    column-gap: 32px;
+    column-gap: 28px;
     grid-template-columns: 340px 1fr;
     margin: 0 24px 73px;
     min-width: 720px;
@@ -34,7 +34,6 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    column-gap: 32px;
     row-gap: 32px;
     margin: 0 auto 50px;
     min-width: 320px;
